@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #76B2B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    flex-direction:column;
+}
+header img {
+    width: 719px;
+    max-width:100%
+}
+header h1 {
+    padding-top: 30px;
+    left: calc(50% - 473px/2 + 0.5px);
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.28em;
+    color: #F8FFFF;
+}
+.cool{
+    text-align: center;
+    background: #EE7A3D;
+    height: 746px;
+}
+.cool p{
+    font-size: 20px;
+    left: calc(50% - 667px/2 + 0.5px);
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0.5em;
+    color: #F8FFFF;
+    padding-top:80px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.cool h1 {
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 212px;
+    line-height: 250px;
+    letter-spacing: -0.08em;
+    color: #F8FFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.jituyo {
+    background-color: #76B2B0;
+    height: 858px;
+}
+.jituyo img {
+    height: 663px;
+    margin-top:98px;
+    margin-left:13.125vw;
+    float:left;
+}
+.seisin {
+    background-color: #76B2B0;
+    height: 858px;
+    padding-right:13.19%;
+
+}
+.seisin img {
+    height: 663px;
+    margin-top:98px;
+    float:right;
+    margin-left:12.78%;
+}
+
+.modal-box {
+    display: flex;
+    padding-top:101px;
+    padding-bottom:-36px;
+    padding-left:13.14vw;
+}
+.modal-box1{
+    display: flex;
+    padding-top:101px;
+    margin-bottom: 1.3em;
+    justify-content: flex-end;
+    
+}
+.modal-button {
+    text-decoration: none;
+    position: absolute; 
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.38em;
+    color: #FFF9E7;
+}
+.mbg {
+    border-bottom: dotted 2px #FFF9E7;
+}
+.mbo{
+    border-bottom: dotted 2px #FFF9E7;
+}
+.mbg:hover {
+    background-color: #4E7C72;
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-transition: all 0.1s ease;
+    border: solid #F8FFFF 1px;
+}
+.mbo:hover{
+    background-color: #EE7A3D;
+    -webkit-transition: all 0.1s ease;
+    border: solid #F8FFFF 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.modaal-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:121px;
+}
+.gy {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center ;
+}
+.h1p{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    width: 464px;
+    height: 369px;
+    object-fit: cover;
+    margin-right:64px;
+}
+.banner2 {
+    width: 464px;
+    height: 369px;
+    object-fit: cover;
+    margin-left:64px;
+}
+.h1p h1{
+    color: #F8FFFF;
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    letter-spacing: 0.16em;
+}
+.h1p p{
+    color: #F8FFFF;
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 300%;
+}
+.h2p{
+    display: flex;
+    justify-content: center;
+    color: #F8FFFF;
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    flex-direction: column;
+    text-align: center;
+}
+.h2p h1{
+    margin-top:-60px;
+    letter-spacing: 0.525em;
+
+}
+.h2p p{
+    letter-spacing: 0.6em;
+    line-height: 350%;
+}
+.h3p h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 154px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    display: flex;
+    padding-top: 30px;
+    color: #F8FFFF;
+}
+.meigen{
+    height: 666px;
+    background-color: #EE7A3D;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+.meigen h1 {
+    text-align: center;
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.74em;
+    color: #F8FFFF;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #2C2C2C;
+    padding-left:30px;
+}
+.meigen img {
+    position: absolute;
+}
+footer {
+    background-color: #EE7A3D;
+    height:43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h1{
+    font-family: 'Yu Gothic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}

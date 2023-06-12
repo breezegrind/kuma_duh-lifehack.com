@@ -1,4 +1,5 @@
 $(function($){
+    
     $(".modal-button").modaal({
         hide_close:true,
         overlay_close:true,

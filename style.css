@@ -335,9 +335,11 @@ footer h1{
     .modal-box {
         padding-left:0;
         justify-content: center;
+        padding-bottom:45px;
     }
     .modal-box1{
         justify-content: center;
+        padding-bottom:65px;
     }
     .modal-button {
         font-weight: 700;

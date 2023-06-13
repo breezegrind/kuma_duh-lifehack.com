@@ -78,7 +78,6 @@ header h1 {
 }
 .seisin img {
     height: 663px;
-
     float:right;
     margin-left:12.78%;
 }
@@ -88,18 +87,14 @@ header h1 {
 
 .modal-box {
     display: flex;
-    padding-bottom:62px;
+    padding-bottom:4.2%;
     padding-left:183px;
-    white-space: nowrap;
-	overflow: hidden;
     position: relative;
 }
 .modal-box1{
     position: relative;
     display: flex;
     justify-content: flex-end;
-    white-space: nowrap;
-	overflow: hidden;
     padding-bottom:82px;
 }
 .modal-button {
@@ -114,20 +109,22 @@ header h1 {
 }
 .mbg {
     border-bottom: dotted 2px #FFF9E7;
+    -webkit-transition: all 0.3s ease;
 }
 .mbo{
     border-bottom: dotted 2px #FFF9E7;
+    -webkit-transition: all 0.3s ease;
 }
 .mbg:hover {
     background-color: #4E7C72;
     padding-right: 10px;
     padding-left: 10px;
-    -webkit-transition: all 0.1s ease;
+    -webkit-transition: all 0.3s ease;
     border: solid #F8FFFF 1px;
 }
 .mbo:hover{
     background-color: #EE7A3D;
-    -webkit-transition: all 0.1s ease;
+    -webkit-transition: all 0.3s ease;
     border: solid #F8FFFF 1px;
     padding-right: 10px;
     padding-left: 10px;
@@ -304,7 +301,7 @@ footer h1{
         position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     .jituyo img{
         height: 140px;
@@ -312,8 +309,8 @@ footer h1{
         display: flex;
         justify-content: center;
         margin-bottom:50px;
+        margin-left: 0;
     }
-
     .seisin {
         height: 888px;
         position: relative;
@@ -321,6 +318,7 @@ footer h1{
         padding-top: 67px;
         flex-direction: column;
         padding-right: 0;
+        align-items: center;
     }
     .seisin img{
         width: 318px;
@@ -328,18 +326,17 @@ footer h1{
         display: flex;
         justify-content: center;
         margin-bottom:50px;
+        margin-left:0;
     }
     
     .pcG { display: none !important; }
     .spG { display: block !important; }
 
     .modal-box {
-        padding-left:0px;
-        display: flex;
+        padding-left:0;
         justify-content: center;
     }
     .modal-box1{
-        display: flex;
         justify-content: center;
     }
     .modal-button {
